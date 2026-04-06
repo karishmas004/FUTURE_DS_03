@@ -122,11 +122,11 @@ Helps identify **top-performing marketing channels**.
 
 ## 📸 Dashboard Preview  
 
-![Dashboard 1](./Dashboard-1.jpeg)  
-![Dashboard 2](./Dashboard-2.jpeg)  
-![Dashboard 3](./Dashboard-3.jpeg)  
-![Dashboard 4](./Dashboard-4.jpeg)  
-![Dashboard-5](./Dashboard-5.jpeg)  
+![Dashboard 1](./Dashboard-1.png)  
+![Dashboard 2](./Dashboard-2.png)  
+![Dashboard 3](./Dashboard-3.png)  
+![Dashboard 4](./Dashboard-4.png)  
+![Dashboard-5](./Dashboard-5.png)  
 
 ---
 
