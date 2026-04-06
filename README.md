@@ -127,6 +127,7 @@ Helps identify **top-performing marketing channels**.
 ![Dashboard 3](./Dashboard-3.png)  
 ![Dashboard 4](./Dashboard-4.png)  
 ![Dashboard-5](./Dashboard-5.png)  
+![Dashboard-6](./Dashboard-6.png) 
 
 ---
 
