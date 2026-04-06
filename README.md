@@ -38,15 +38,25 @@ This analysis helps answer key business questions:
 
 ---
 
-## 🛠️ Data Preparation  
+## 🔧 Data Preparation & Transformations  
 
-- Cleaned and structured dataset for analysis  
-- Ensured consistent funnel stage representation  
-- Converted columns into appropriate data types  
-- Created calculated measures using DAX:  
-  - Conversion Rate (%)  
-  - Drop-off Rate (%)  
-- Verified data consistency across funnel stages and channels  
+The dataset was cleaned and transformed to ensure accurate analysis and meaningful insights:
+
+- Removed unnecessary or irrelevant columns  
+- Checked and handled missing/null values  
+- Renamed columns for better readability  
+- Verified and corrected data types (numeric, categorical)  
+- Ensured consistency in funnel stages and channel names  
+- Structured the dataset to represent proper funnel flow  
+
+### 📐 DAX Measures Created  
+
+- **Total Leads** = SUM(Leads)  
+- **Total Conversions** = SUM(Converted)  
+- **Conversion Rate (%)** = DIVIDE(Total Conversions, Total Leads, 0)  
+- **Drop-off Rate (%)** = 1 - Conversion Rate  
+
+These transformations helped in building a clean, reliable, and insight-driven dashboard.
 
 ---
 
@@ -96,7 +106,7 @@ Helps identify **top-performing marketing channels**.
 
 - 🚨 Significant drop-off (~75–80%) observed across the funnel  
 - 📊 Google Ads and Website generate the highest conversions  
-- 📉 Conversion rates indicate optimization opportunities  
+- 📉 Conversion rate indicates optimization opportunities  
 - ⚠️ Major drop-off occurs between Proposal and Conversion stages  
 
 ---
@@ -116,7 +126,7 @@ Helps identify **top-performing marketing channels**.
 ![Dashboard 2](./Dashboard-2.jpeg)  
 ![Dashboard 3](./Dashboard-3.jpeg)  
 ![Dashboard 4](./Dashboard-4.jpeg)  
-![Dashboard 5](./Dashboard-5.jpeg)  
+![Dashboard-5](./Dashboard-5.jpeg)  
 
 ---
 
@@ -147,6 +157,13 @@ This project was completed as part of the **Future Interns — Data Science & An
 This task highlights how marketing funnel analysis plays a crucial role in improving conversion rates and business growth.  
 
 By identifying drop-off points and high-performing channels, businesses can take **data-driven actions** to optimize marketing strategies and increase revenue.
+
+---
+
+## 👩‍💻 Author  
+
+**Karishma S**  
+Aspiring Data Analyst | Power BI | Data Analytics  
 
 ---
 
